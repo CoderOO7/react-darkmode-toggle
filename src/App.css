@@ -1,0 +1,19 @@
+[data-theme="light"] {
+  --text-color: black;
+  --background-color: white;
+}
+
+[data-theme="dark"] {
+  --text-color: #fcfcfc;
+  --background-color: #2f2f2f;
+}
+
+.App {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.6s ease-in-out;
+}
